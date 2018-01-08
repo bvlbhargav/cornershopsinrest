@@ -1,0 +1,31 @@
+{
+  "name": "cornershopsinrest",
+  "version": "1.0.0",
+  "description": "cornershops rest service",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvlbhargav/cornershopsinrest.git"
+  },
+  "keywords": [
+    "cornershopsin"
+  ],
+  "author": "Lakshmi Bhargava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvlbhargav/cornershopsinrest/issues"
+  },
+  "homepage": "https://github.com/bvlbhargav/cornershopsinrest#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.13.9",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.14.9"
+  }
+}
